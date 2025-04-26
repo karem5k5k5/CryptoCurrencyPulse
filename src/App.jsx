@@ -12,6 +12,7 @@ const App = () => {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/CryptoCurrencyPulse/' element={<Home/>}/>
         <Route path='/coin/:id' element={<Coin/>}/>
         <Route path='*' element={<Error/>}/>
       </Routes>
